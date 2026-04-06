@@ -15,19 +15,19 @@ import ThemeToggle from '@/components/ThemeToggle';
 export default function Page() {
   return (
     <>
-      <ThemeToggle />
       <UrgencyBar />
       <Nav />
       <Hero />
       <VideoShowcase />
-<Philosophy />
+      <Philosophy />
       <Instructor />
       <Curriculum />
       <Transformation />
       <SocialProof />
       <FAQ />
       <Enrollment />
-<Footer />
+      <Footer />
+      <ThemeToggle />
     </>
   );
 }
